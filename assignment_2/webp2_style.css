@@ -2,15 +2,21 @@
 
 } */
 
+.wrap {
+    margin: 0;
+    padding: 0;
+}
+
 .mainbody {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
     position: relative;
     left: 200px;
-    top: 0;
+    top: 50px;
     width: calc(100% - 200px);
     height: 100%;
+    display: block;
 }
 
 #navbar {
@@ -20,8 +26,25 @@
     width: 200px;
     position: fixed;
     left: 0;
-    top: 0;
+    top: 50px;
     background-color: lightgray;
+   
+}
+
+#topbar {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#toptitle {
+    text-align: center;
 }
 
 ul {
@@ -50,6 +73,7 @@ h1 {
 }
 
 p {
+    margin: 0;
     padding: 5px;
     font-size: 1.3em;
 }
