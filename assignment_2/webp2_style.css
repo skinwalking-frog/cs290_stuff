@@ -45,6 +45,7 @@
 
 #toptitle {
     text-align: center;
+    color: rebeccapurple;
 }
 
 ul {
@@ -59,17 +60,33 @@ li a {
     width: 190px;
     background-color: lightgray;
     font-size: 2em;
-  }
+}
+
+li a:link {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: rebeccapurple;
+}
 
 li a:hover {
     background-color: aquamarine;
     border: 2px solid black;
+    color: rebeccapurple;
+}
+
+li a:active{
+    text-decoration: none;
+    color: gold;
 }
 
 h1 {
     margin: 0;
     padding: 5px;
-
+    color: rebeccapurple;
 }
 
 p {
