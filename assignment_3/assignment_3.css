@@ -1,0 +1,17 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}
