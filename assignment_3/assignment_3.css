@@ -25,9 +25,12 @@ div {
     display: inline-block;
     text-align: center;
     font-size: 40px;
+    width: 15%;
+    height: 50px;
+    left: 42.5%;
     margin: 0;
-    padding: 0;
-    left: 50%;
+    padding: 10px;
+    
 }
 
 .drop_btn {
@@ -40,10 +43,17 @@ div {
     width: auto;
     border-style:solid;
     border-width: 1px;   
+    border-radius: 10px;
+    background-color:beige;
     margin: 4px;
     padding: 0;
     top: 0;
     left: 0;
+    z-index: 2;
+}
+
+.drop_btn a {
+    text-decoration: none;
 }
 
 .sidebar {
@@ -51,31 +61,38 @@ div {
     position: fixed;
     margin: 0;
     padding: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .sidebar ul {
     list-style-type: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar ul li a {
     display: block;
-    background-color:gray;
+    background-color:beige;
+    text-align: center;
 }
 
 .sidebar ul li a:hover {
     background-color: aquamarine;
+    border: solid black 1px;
 }
 
 .drop_btn:hover .sidebar {
     display: block;
-    z-index: 1;
+    z-index: 2;
 }
-
 
 .mainbody {
     position: fixed;
     display: flex;
+    background-color: beige;
     top: 70px;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
