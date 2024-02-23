@@ -19,6 +19,7 @@ div {
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 
 .toptitle {
@@ -31,7 +32,6 @@ div {
     left: calc(50% - 200px);
     margin: 0;
     padding: 10px;
-    
 }
 
 .drop_btn {
@@ -48,7 +48,7 @@ div {
     padding: 0;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu_btn {
@@ -73,7 +73,7 @@ div {
     padding: 0;
     top: 70px;
     left: 0;
-    z-index: 2;
+    z-index: 3;
     height: auto;
     width: 150px;
 }
@@ -105,7 +105,7 @@ div {
 }
 
 .mainbody {
-    position: fixed;
+    position: relative;
     display: block;
     background-color: white;
     width: 100%;
