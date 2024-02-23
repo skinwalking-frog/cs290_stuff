@@ -38,10 +38,8 @@ div {
     position: fixed;
     display: inline-block;
     text-align: center;
-    font-size: 3em;
     height: 60px;
     width: 60px; 
-    /* width: auto; */
     border-style:solid;
     border-width: 1px;   
     border-radius: 10px;
@@ -55,9 +53,13 @@ div {
 
 .menu_btn {
     position: absolute;
+    font-size: 3em;
     left:0;
-    width: inherit;
-    height: auto;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+    transform: translateY(-5px);
 }
 
 .drop_btn a {
@@ -72,6 +74,8 @@ div {
     top: 70px;
     left: 0;
     z-index: 2;
+    height: auto;
+    width: 150px;
 }
 
 .sidebar ul {
@@ -86,11 +90,13 @@ div {
     background-color:whitesmoke;
     text-align: center;
     border: solid black 1px;
+    font-size: 3em;
 }
 
 .sidebar ul li a:hover {
     background-color: lightblue;
     border: solid white 1px;
+    color: white;
 }
 
 .drop_btn:hover .sidebar {
@@ -100,15 +106,42 @@ div {
 
 .mainbody {
     position: fixed;
-    display: flex;
+    display: block;
     background-color: white;
+    width: 100%;
     top: 70px;
     left: 0;
     z-index: 1;
 }
 
+#blurb {
+    position: static;
+    display: block;
+    width: 96%;
+    padding: 2%;
+}
+
+#movies {
+    position: relative;
+    display: block;
+    left: 2%;
+}
+
+.list {
+    position: absolute;
+    display: block;
+}
+
+
+
 @media screen and (max-width: 600px) {
     .toptitle{
         left: 100px;
+    }
+    .sidebar ul li a{
+        font-size: 2em;
+    }
+    .sidebar {
+        width: 100px;
     }
 }
