@@ -124,6 +124,7 @@ div {
 #movies {
     position: relative;
     display: block;
+    width: 98%;
     left: 2%;
 }
 
