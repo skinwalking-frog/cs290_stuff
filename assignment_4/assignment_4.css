@@ -75,7 +75,7 @@ div {
     left: 0;
     z-index: 3;
     height: auto;
-    width: 150px;
+    width: 250px;
 }
 
 .sidebar ul {
@@ -87,7 +87,7 @@ div {
 
 .sidebar ul li a {
     display: block;
-    background-color:lightgray;
+    background-color:white;
     text-align: center;
     border: solid black 1px;
     font-size: 3em;
