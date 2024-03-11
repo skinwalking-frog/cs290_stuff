@@ -74,6 +74,10 @@ button {
     text-decoration: none;
 }
 
+#drop_btn:hover {
+    color: aquamarine;
+}
+
 #sidebar {
     display: none;
     position: fixed;
