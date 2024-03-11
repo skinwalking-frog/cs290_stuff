@@ -39,6 +39,19 @@ button {
     padding: 10px;
 }
 
+#settings {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+#settings img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 #drop_btn {
     position: fixed;
     display: inline-block;
