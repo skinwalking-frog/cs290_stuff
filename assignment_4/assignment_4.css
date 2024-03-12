@@ -34,7 +34,7 @@ button {
 }
 
 #themes {
-    display: block;
+    display: none;
     position: fixed;
     margin: 0;
     padding: 0;
