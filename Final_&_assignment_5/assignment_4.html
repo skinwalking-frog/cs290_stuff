@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assignment_4.css">
+    <script src="script.js"></script>
+    <title>Sci-Fi Depot</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class = "topbar">
+        <h1 class="toptitle">Sci-Fi Depot</h1>
+        <div id="themes">
+            <ul>
+                <li><button onclick="Light_Theme()">Light</button></li>
+                <li><button onclick="Dark_Theme()">Dark</button></li>
+                <li><button onclick="standard()">Standard</button></li>
+            </ul>
+        </div>
+        <div id="settings" onclick="Toggle_Themes_Menu()">
+            <img src="settings gear.png" alt="">
+        </div>
+    </div>
+    <div id="drop_btn">
+        <button id="menu_btn" onclick="Toggle_Menu()">☰</button>
+        <div id= "sidebar">
+            <ul>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="">TV Shows</a></li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Games</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class= "mainbody">
+        <div id="blurb">
+            A Work-In-Progress website where I list Sci-Fi movies, TV shows, Books, and Games that I have seen, read, or played 
+            and rate them based on my personal preferences. If I deem a piece of Sci-Fi media that I have consumed
+             "bad" or "not worth mentioning" it will be omitted from this list.
+            I have not yet gotten to writing a summary for every movie.
+             
+        </div>
+        <h2 id="movies">Movies:</h2>
+        <ul class="list">
+            <li class="entry"><div class="words"><h2>Blade Runner</h2> <h3>Score: 8</h3> 
+                <p>A timeless cult classic adapted from Philip K. Dick's book "Do Andriods Dream of Electric Sheep," that everyone should see at least once. 
+                    In a future where artificial humans called "replicants" are used as a disposable workforce, 
+                    Deckard, a Blade Runner tasked with hunting down replicants on earth where they are illegal, 
+                    must come to terms with the morality of his work and begins to question his own existence.
+                    The movie has many deeper underlying philosophical themes relating to human identity, morality, existentialism
+                    and many more. While the plot itself may not be the most entertaining, 
+                    the strong use of metaphor and symbolism makes the movie stand out as a true work of science fiction.
+                    </p><a href="https://www.imdb.com/title/tt0083658/">IMDB link</a></div> 
+                <div class="container"><img src="blade runner.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Blade Runner 2049</h2> <h3>Score: 9</h3> 
+                <p>35 years after the release of Ridley Scott's Blade Runner, Denis Villeneuve's sequel is a masterpiece that continues the 
+                    philosophical themes of the original while building a coherent plot, stunning visuals, and a killer soundtrack. 
+                    Replicant Blade runner K is tasked with hunting down older model replicants. When a case leads to a discovery that could shift the power dynamic of society,
+                    K sets out on his own to find the truth. As he learns more he begins to question the nature of his reality, 
+                    and after finding a long lost Blade Runner from the past along with a conspiracy plot, he is faced with many hard decisions to make.
+                    This film takes the ideas and themes from the original and improves upon them in almost every aspect, 
+                    making the movie one of the best works of science fiction in the last decade</p><a href="https://www.imdb.com/title/tt1856101/">IMDB link</a></div> 
+                <div class="container"><img src="blade runner 2049.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>The Creator</h2> <h3>Score: 7</h3> 
+                <p>The Creator is a new standalone original science fiction movie, which is something hard to come by these days in the genre. In the future the western world has outlawed AI after it dropped a nuke on LA.
+                    The rest of the world however, embraces AI and incorporates robots as individuals into their society. As such the west builds a multi-trillion dollar space station to fight the AI. 
+                    The story follows Joshua, an ex-special forces operative is recruited find and destroy The Creator who has developed a super weapon that could end the war with the west.
+                    After infiltrating a secret facility, Joshua finds out the super weapon is actually a young child. Throughout the movie Joshua is faced with many decisions that raise questions concerning morality, the nature of life, and consciousness.
+                    Joshua is quick to asnwer these questions for himself, but the audience is left to think for themselves. The movie is an outstanding mix of action, emotion, light philosophy and entertainment.</p><a href="https://www.imdb.com/title/tt11858890/">IMDB link</a></div> 
+                <div class="container"><img src="the creator.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Dune (2021)</h2> <h3>Score: 7</h3> 
+                <p>Dune part 1 is adapted from Frank Herbert's book "Dune," which has a setting so complex the 1984 movie adaptation had a 15 minute intro just to explain it.
+                    Since the setting and plot can become so complex to explain in a reasonable amout of text, I will use a synopsys from google; 
+                    Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. 
+                    As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence, only those who can conquer their own fear will survive. 
+                    The movie has stunning visuals and a plot true to the book, while it may seem long and uneventful at times, it is merely the setup for Dune part 2, which will be well worth the wait.
+                </p><a href="https://www.imdb.com/title/tt1160419/">IMDB link</a></div> 
+                <div class="container"><img src="dune.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Ex-Machina</h2> <h3>Score: 7.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="ex machina.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>The 5th Element</h2> <h3>Score: 7.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="the 5th element.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>The Iron Giant</h2> <h3>Score: 7</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="iron giant.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Avatar</h2> <h3>Score: 7</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="avatar.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Contact</h2> <h3>Score: 7.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="contact.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Terminator</h2> <h3>Score: 6.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="terminator.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Terminator 2</h2> <h3>Score: 7.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="terminator 2.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>inception</h2> <h3>Score: 8.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="inception.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>The Day the Earth Stood Still</h2> <h3>Score: 7</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="the day the earth stood still.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Predestination</h2> <h3>Score: 6.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="predestination.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Star Trek 2: The Warth of Khan</h2> <h3>Score: 7.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="TWOK.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Star Trek 4: The Voyage Home</h2> <h3>Score: 6.5</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="TVH.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Star Trek 6: The Undiscovered Country</h2> <h3>Score: 8</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="TUC.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>Star Trek 8: First Contact</h2> <h3>Score: 8</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="first contact.jpg" alt=""></div> </li>
+            <li class="entry"><div class="words"><h2>The Adjustment Bureau</h2> <h3>Score: 8</h3> 
+                <p>description</p><a href="">IMDB link</a></div> 
+                <div class="container"><img src="Adjustment.jpg" alt=""></div> </li>
+
+        </ul>
+    </div>
+    
+</body>
+</html>
