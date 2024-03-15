@@ -67,6 +67,12 @@ button {
     font-size: 100%;
 }
 
+#themes ul li button:hover {
+    background-color: #80bcd0ff;
+    border: solid white 1px;
+    color: white;
+}
+
 .toptitle {
     position: absolute;
     display: inline-block;
